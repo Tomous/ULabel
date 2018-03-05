@@ -15,6 +15,7 @@
 		609F927E204CE2EA00CDE022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F927D204CE2EA00CDE022 /* main.m */; };
 		609F9288204CE2EA00CDE022 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F9287204CE2EA00CDE022 /* ____Tests.m */; };
 		609F9293204CE2EA00CDE022 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F9292204CE2EA00CDE022 /* ____UITests.m */; };
+		609F92A2204CE30D00CDE022 /* DCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 609F92A1204CE30D00CDE022 /* DCLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		609F928E204CE2EA00CDE022 /* 文字换行UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "文字换行UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		609F9292204CE2EA00CDE022 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		609F9294204CE2EA00CDE022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609F92A0204CE30D00CDE022 /* DCLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCLabel.h; sourceTree = "<group>"; };
+		609F92A1204CE30D00CDE022 /* DCLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				609F926F204CE2EA00CDE022 /* AppDelegate.m */,
 				609F9271204CE2EA00CDE022 /* ViewController.h */,
 				609F9272204CE2EA00CDE022 /* ViewController.m */,
+				609F92A0204CE30D00CDE022 /* DCLabel.h */,
+				609F92A1204CE30D00CDE022 /* DCLabel.m */,
 				609F9274204CE2EA00CDE022 /* Main.storyboard */,
 				609F9277204CE2EA00CDE022 /* Assets.xcassets */,
 				609F9279204CE2EA00CDE022 /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 				609F9273204CE2EA00CDE022 /* ViewController.m in Sources */,
 				609F927E204CE2EA00CDE022 /* main.m in Sources */,
 				609F9270204CE2EA00CDE022 /* AppDelegate.m in Sources */,
+				609F92A2204CE30D00CDE022 /* DCLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
